@@ -8,7 +8,7 @@ import DonationForm from './components/DonationForm.jsx';
 import LogsTable from './components/LogsTable.jsx';
 import { Heart } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://decentralized-charity-fund-distribu.vercel.app/api';
 
 export default function App() {
   const [wallet, setWallet] = useState(null);
