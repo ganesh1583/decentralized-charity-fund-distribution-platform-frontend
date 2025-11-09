@@ -86,7 +86,7 @@ export default function App() {
 
   const fetchLogs = async () => {
     try {
-      const res = await axios.get(`${API_BASE_URL}/logs`);
+      const res = await axios.get(`${API_BASE_URL}`);
       setLogs(res.data);
     } catch (error) {
       console.error('Failed to fetch logs:', error);
